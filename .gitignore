@@ -1,0 +1,7 @@
+.env
+_RLS
+CLAUDE.md
+
+# dependencies
+node_modules/
+.temp
