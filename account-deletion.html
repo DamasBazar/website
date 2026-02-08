@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حذف الحساب - Damas Bazar</title>
+    <meta name="description" content="طلب حذف الحساب من منصة Damas Bazar">
+
+    <!-- Google Fonts (Cairo for Arabic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1E40AF',
+                        accent: '#F59E0B'
+                    },
+                    fontFamily: {
+                        'cairo': ['Cairo', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center gap-8">
+                    <a href="index.html" class="text-primary hover:text-secondary transition">العودة للرئيسية</a>
+                </div>
+                <div class="text-2xl font-bold text-primary">
+                    Damas Bazar
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Account Deletion Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-white rounded-lg shadow-lg p-8 md:p-12">
+            <div class="text-center mb-8">
+                <div class="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-10 h-10 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                    </svg>
+                </div>
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">حذف الحساب</h1>
+                <p class="text-gray-600">نأسف لرؤيتك تغادر. يمكنك طلب حذف حسابك بسهولة</p>
+            </div>
+
+            <!-- Important Notice -->
+            <div class="bg-yellow-50 border-r-4 border-yellow-400 p-6 mb-8">
+                <div class="flex items-start">
+                    <svg class="w-6 h-6 text-yellow-600 ml-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                    </svg>
+                    <div>
+                        <h3 class="text-lg font-bold text-yellow-800 mb-2">تنبيه هام</h3>
+                        <ul class="list-disc list-inside space-y-1 text-yellow-700 text-sm">
+                            <li>سيتم حذف جميع بياناتك الشخصية نهائيًا</li>
+                            <li>سيتم إلغاء جميع الطلبات النشطة</li>
+                            <li>لن تتمكن من استعادة حسابك بعد الحذف</li>
+                            <li>قد تستغرق عملية الحذف حتى 30 يومًا</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Option 1: Via App -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">الطريقة الأولى: من خلال التطبيق</h2>
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                        <li>افتح تطبيق Damas Bazar على هاتفك</li>
+                        <li>اذهب إلى <strong>الإعدادات</strong></li>
+                        <li>اختر <strong>الحساب</strong></li>
+                        <li>اضغط على <strong>حذف الحساب</strong></li>
+                        <li>اتبع التعليمات لتأكيد الحذف</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Option 2: Via Email -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">الطريقة الثانية: عبر البريد الإلكتروني</h2>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <p class="text-gray-700 mb-4">أرسل رسالة بريد إلكتروني إلى:</p>
+                    <div class="flex items-center justify-center p-4 bg-white rounded-lg border-2 border-dashed border-gray-300 mb-4">
+                        <a href="mailto:delete-account@damasbazar.com" class="text-2xl font-bold text-primary hover:text-secondary transition" dir="ltr">
+                            delete-account@damasbazar.com
+                        </a>
+                    </div>
+
+                    <div class="mt-6">
+                        <h3 class="font-bold text-gray-900 mb-3">يجب أن تتضمن الرسالة:</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 mr-4">
+                            <li>البريد الإلكتروني المسجل في الحساب</li>
+                            <li>رقم الهاتف المسجل (إن وجد)</li>
+                            <li>سبب الحذف (اختياري)</li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                        <p class="text-sm text-gray-700">
+                            <strong>ملاحظة:</strong> سنرسل لك رسالة تأكيد خلال 48 ساعة، وسيتم حذف حسابك خلال 30 يومًا من تاريخ الطلب.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- What Gets Deleted -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">ماذا سيتم حذفه؟</h2>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="p-4 bg-red-50 rounded-lg">
+                        <h3 class="font-bold text-red-900 mb-2 flex items-center">
+                            <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
+                            </svg>
+                            سيتم حذفها نهائيًا
+                        </h3>
+                        <ul class="list-disc list-inside space-y-1 text-red-700 text-sm mr-4">
+                            <li>المعلومات الشخصية</li>
+                            <li>سجل الطلبات</li>
+                            <li>المراجعات والتقييمات</li>
+                            <li>قائمة الأمنيات</li>
+                            <li>العناوين المحفوظة</li>
+                        </ul>
+                    </div>
+                    <div class="p-4 bg-green-50 rounded-lg">
+                        <h3 class="font-bold text-green-900 mb-2 flex items-center">
+                            <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                            </svg>
+                            سيتم الاحتفاظ بها
+                        </h3>
+                        <ul class="list-disc list-inside space-y-1 text-green-700 text-sm mr-4">
+                            <!-- <li>السجلات المالية (للقوانين)</li> -->
+                            <li>بيانات المعاملات (مجهولة الهوية)</li>
+                            <!-- <li>السجلات الضريبية</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Timeline -->
+            <section class="mb-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">الجدول الزمني للحذف</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center ml-4">
+                            <span class="text-blue-600 font-bold">1</span>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-gray-900">إرسال الطلب</h4>
+                            <p class="text-gray-600 text-sm">يتم استلام طلب حذف الحساب</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center ml-4">
+                            <span class="text-blue-600 font-bold">2</span>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-gray-900">التأكيد (48 ساعة)</h4>
+                            <p class="text-gray-600 text-sm">نرسل لك رسالة تأكيد عبر البريد الإلكتروني</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center ml-4">
+                            <span class="text-blue-600 font-bold">3</span>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-gray-900">فترة الانتظار (7-30 يوم)</h4>
+                            <p class="text-gray-600 text-sm">يمكنك إلغاء الطلب خلال هذه الفترة</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-red-100 rounded-full flex items-center justify-center ml-4">
+                            <span class="text-red-600 font-bold">4</span>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-bold text-gray-900">الحذف النهائي</h4>
+                            <p class="text-gray-600 text-sm">يتم حذف جميع بياناتك بشكل دائم</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Support -->
+            <section class="mt-12 pt-8 border-t border-gray-200">
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">هل تحتاج إلى مساعدة؟</h3>
+                    <p class="text-gray-700 mb-4">إذا كنت تواجه مشكلة، قد نتمكن من مساعدتك. تواصل مع فريق الدعم قبل حذف حسابك:</p>
+                    <div class="space-y-2 text-gray-700">
+                        <p><strong>البريد الإلكتروني:</strong> <a href="mailto:support@damasbazar.com" class="text-primary hover:underline" dir="ltr">info@damasbazar.com</a></p>
+                        <p><strong>الهاتف:</strong> <span dir="ltr">+963-XXX-XXXXXX</span></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Damas Bazar</h3>
+                    <p class="text-gray-400">منصة التجارة الإلكترونية السورية</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">روابط سريعة</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">الرئيسية</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition">سياسة الخصوصية</a></li>
+                        <li><a href="account-deletion.html" class="text-gray-400 hover:text-white transition">حذف الحساب</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">تواصل معنا</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>البريد: <span dir="ltr">info@damasbazar.com</span></li>
+                        <li>الهاتف: <span dir="ltr">+963-XXX-XXXXXX</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center pt-8 border-t border-gray-800">
+                <p class="text-gray-400">&copy; 2026 Damas Bazar. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
